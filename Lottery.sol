@@ -8,7 +8,7 @@ contract Lottery {
     constructor() {
         owner = msg.sender;
     }
-
+ 
     function enter() public payable {
         require(msg.value == 0.1 ether, "Must send exactly 0.1 ETH");
         players.push(msg.sender);
