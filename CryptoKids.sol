@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: Unlicensed
 
-pragma solidity ^0.8.26;
+pragma solidity ^0.8.26;  
 
 contract CryptoKids {
     // owner DAD
