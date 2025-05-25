@@ -17,7 +17,7 @@ contract CryptoKids {
         address payable walletAddress;    
         string firstName;
         string lastName;
-        uint releaseTime;
+        uint releaseTime;   
         uint amount;
         bool canWithdraw;
     }
