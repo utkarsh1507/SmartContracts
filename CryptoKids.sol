@@ -19,7 +19,7 @@ contract CryptoKids {
         string lastName;
         uint releaseTime;   
         uint amount;
-        bool canWithdraw;
+        bool canWithdraw;   
     }
 
     Kid[] public kids;
