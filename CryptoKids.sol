@@ -14,7 +14,7 @@ contract CryptoKids {
 
     // define Kid
     struct Kid {
-        address payable walletAddress;    
+        address payable walletAddress;       
         string firstName;
         string lastName;
         uint releaseTime;   
