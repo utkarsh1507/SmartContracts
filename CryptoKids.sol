@@ -18,7 +18,7 @@ contract CryptoKids {
         string firstName;
         string lastName;
         uint releaseTime;   
-        uint amount;
+        uint amount;  
         bool canWithdraw;   
     }
 
