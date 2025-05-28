@@ -11,7 +11,7 @@ contract B {
     function setVars(uint256 _num) public payable {
         num = _num;
         sender = msg.sender;
-        value = msg.value;
+        value = msg.value;  
     }
 }
 
