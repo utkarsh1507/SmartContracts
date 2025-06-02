@@ -6,7 +6,7 @@ contract B {
     // NOTE: storage layout must be the same as contract A
     uint256 public num;
     address public sender;
-    uint256 public value;
+    uint256 public value;  
     
     function setVars(uint256 _num) public payable {
         num = _num;
