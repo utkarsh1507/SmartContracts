@@ -28,7 +28,7 @@ contract Lottery {
 
         // Reset the lottery
         delete players;
-    }
+    } 
 
     function random() private view returns (uint) {
         return uint(keccak256(abi.encodePacked(block.timestamp, block.difficulty, players.length)));
