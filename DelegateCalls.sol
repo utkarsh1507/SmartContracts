@@ -13,7 +13,7 @@ contract B {
         sender = msg.sender;
         value = msg.value;  
     }
-}        
+}   
      
 contract A {
     uint256 public num;
