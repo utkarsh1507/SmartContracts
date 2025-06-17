@@ -6,7 +6,7 @@ contract Lottery {
     address[] public players;
 
     constructor() {
-        owner = msg.sender;
+        owner = msg.sender;   
     }
  
     function enter() public payable {
