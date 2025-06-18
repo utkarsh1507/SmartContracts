@@ -21,7 +21,7 @@ contract Lottery {
     function pickWinner() public onlyOwner {
         require(players.length > 0, "No players joined yet");
 
-        uint index = random() % players.length;
+        uint index = random() % players.length;  
         address winner = players[index];
 
         payable(winner).transfer(address(this).balance);
