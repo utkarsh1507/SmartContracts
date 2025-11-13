@@ -4,7 +4,7 @@ pragma solidity ^0.8.19;
 contract Lottery {
     address public owner;
     address[] public players;
-
+   
     constructor() {
         owner = msg.sender;   
     }
@@ -39,3 +39,4 @@ contract Lottery {
         _;
     }
 }
+
