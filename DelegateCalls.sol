@@ -12,7 +12,7 @@ contract B {
         num = _num;
         sender = msg.sender;
         value = msg.value;  
-    }
+    }  
 }   
      
 contract A {
