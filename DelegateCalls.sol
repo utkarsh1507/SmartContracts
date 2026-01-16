@@ -16,7 +16,7 @@ contract B {
 }   
      
 contract A {
-    uint256 public num;
+    uint256 public num;  
     address public sender;
     uint256 public value;
 
